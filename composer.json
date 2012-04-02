@@ -1,0 +1,13 @@
+{
+    "name": "GrahamC/DeviceLocator",
+    "description": "Locate serial devices.",
+    "require": {
+        "grahamc/preferredlist": "dev-master"
+    },
+    "authors": [
+        {
+            "name": "Graham Christensen",
+            "email": "graham@grahamc.com"
+        }
+    ]
+}
