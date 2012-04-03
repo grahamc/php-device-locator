@@ -1,6 +1,7 @@
 <?php
 
 namespace GrahamC\Serial\DeviceLocator;
+use GrahamC\Serial\DeviceLocator\OperatingSystem as OperatingSystem;;
 
 class Windows implements OperatingSystem
 {
