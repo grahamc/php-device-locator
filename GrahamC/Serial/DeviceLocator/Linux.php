@@ -3,7 +3,7 @@
 namespace GrahamC\Serial\DeviceLocator;
 use GrahamC\Serial\DeviceLocator\OperatingSystem as OperatingSystem;;
 
-class Linux extends OperatingSystem
+class Linux implements OperatingSystem
 {
     public function getList()
     {
