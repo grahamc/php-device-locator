@@ -15,7 +15,7 @@ class Windows implements OperatingSystem
                 continue;
             }
 
-            if (strpos($line, 'USBSERIAL') !== false) {
+            if (strpos($line, 'USBSER') !== false) {
                 $devs[] = end(explode("\t", $line));
             }
         }
