@@ -10,4 +10,7 @@
             "email": "graham@grahamc.com"
         }
     ]
+    ,"autoload": {
+        "psr-0": { "GrahamC\\Serial\\DeviceLocator": "" }
+    }
 }
