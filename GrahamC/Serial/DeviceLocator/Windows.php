@@ -5,7 +5,7 @@ use GrahamC\Serial\DeviceLocator\OperatingSystem as OperatingSystem;;
 
 class Windows implements OperatingSystem
 {
-    protected function getList()
+    public function getList()
     {
         $data = shell_exec('reg query HKEY_LOCAL_MACHINE\HARDWARE\DEVICEMAP\SERIALCOMM');
         $data = explode("\n", trim($data));
