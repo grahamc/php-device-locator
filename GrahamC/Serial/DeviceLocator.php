@@ -1,6 +1,6 @@
 <?php
 
-namespace Grahamc\Serial;
+namespace GrahamC\Serial;
 
 class DeviceLocator extends \GrahamC\PreferredList
 {
